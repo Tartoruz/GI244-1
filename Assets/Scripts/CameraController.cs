@@ -15,6 +15,7 @@ public class CameraController : MonoBehaviour
     
     [SerializeField] private float xInput;
     [SerializeField] private float zInput;
+    [SerializeField] private float jumpHeight;
 
     [Header("Zoom")]
     [SerializeField] private float zoomSpeed;
@@ -28,6 +29,7 @@ public class CameraController : MonoBehaviour
     [SerializeField] private Quaternion newRotation;
 
     private static CameraController instance;
+    Rigidbody rb;
     
     void Awake()
     {
@@ -44,6 +46,8 @@ public class CameraController : MonoBehaviour
         zoomSpeed = 25;
         minZoomDist = 15;
         maxZoomDist = 50;
+        jumpHeight = 50;
+        rb = GetComponent<Rigidbody>();
     }
 
     void Update()
@@ -51,6 +55,7 @@ public class CameraController : MonoBehaviour
         MoveByKB();
         Zoom();
         Rotate();
+        Jump();
     }
     
     private void MoveByKB()
@@ -98,5 +103,10 @@ public class CameraController : MonoBehaviour
             newRotation *= Quaternion.Euler(Vector3.up * -rotationAmount);
 
         transform.rotation = Quaternion.Lerp(transform.rotation, newRotation, Time.deltaTime*moveSpeed);
+    }
+    private void Jump()
+    {
+        if (Input.GetKey(KeyCode.Space))
+            rb.AddForce(Vector3.up * jumpHeight);
     }
 }
