@@ -1085,6 +1085,7 @@ MonoBehaviour:
   corner2: {fileID: 2099900256}
   xInput: 0
   zInput: 0
+  jumpHeight: 0
   zoomSpeed: 0
   zoomModifier: 0
   minZoomDist: 0
