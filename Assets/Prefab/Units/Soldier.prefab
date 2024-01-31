@@ -2294,9 +2294,9 @@ GameObject:
   m_Component:
   - component: {fileID: 457922}
   - component: {fileID: 13717370}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Character_English_Soldier_01
-  m_TagString: Untagged
+  m_TagString: Unit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
