@@ -5141,9 +5141,9 @@ GameObject:
   - component: {fileID: 4082494794704955478}
   - component: {fileID: 4234907099588888636}
   - component: {fileID: 672985741857097756}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Soldier
-  m_TagString: Untagged
+  m_TagString: Unit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

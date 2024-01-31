@@ -44,6 +44,7 @@ public class UnitSelect : MonoBehaviour
         if (Input.GetMouseButtonUp(0))
         {
             TrySelect(Input.mousePosition);
+            Debug.Log("11");
         }
 
     }
@@ -54,6 +55,7 @@ public class UnitSelect : MonoBehaviour
         curUnit.ToggleSelectionVisual(true);
 
         Debug.Log("Selected Unit");
+        Debug.Log("33");
     }
 
     private void TrySelect(Vector2 screenPos)
@@ -64,6 +66,7 @@ public class UnitSelect : MonoBehaviour
         //if we left-click something
         if (Physics.Raycast(ray, out hit, 1000, layerMask))
         {
+            Debug.Log("22");
             switch (hit.collider.tag)
             {
                 case "Unit":
@@ -75,6 +78,7 @@ public class UnitSelect : MonoBehaviour
     private void ClearAllSelectionVisual()
     {
         if (curUnit != null)
+            Debug.Log("44");
             curUnit.ToggleSelectionVisual(false);
     }
 
