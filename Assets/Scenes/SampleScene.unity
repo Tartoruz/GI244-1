@@ -1117,6 +1117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62da1b683e8a9974ea11b81b3ed6681b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selectionMarker: {fileID: 8709744480566770274, guid: 9059d402b0b6cbe438c8955500e361ec, type: 3}
 --- !u!114 &1176457404
 MonoBehaviour:
   m_ObjectHideFlags: 0
