@@ -28,6 +28,12 @@ public class Faction : MonoBehaviour
     public int Gold { get { return gold; } set { gold = value; } }
     [SerializeField] private int stone;
     public int Stone { get { return stone; } set { stone = value; } }
+    [SerializeField] private List<Building> aliveBuildings = new List<Building>();
+    public List<Building> AliveBuildings { get { return aliveBuildings; } }
+    public bool IsMyBuilding(Building b)
+    {
+        return aliveBuildings.Contains(b);
+    }
     public bool CheckUnitCost(Unit unit)
     {
         if (food < unit.UnitCost.food)
