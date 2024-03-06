@@ -102,7 +102,8 @@ public class UnitSelect : MonoBehaviour
         ClearAllSelectionVisual();
         curUnit = null;
         curBuilding = null;
-        InfoManager.instance.ShowAllInfo(curUnit);
+        InfoManager.instance.ClearAllInfo();
+        ActionManager.instance.ClearAllInfo();
     }
     private void ShowUnit(Unit u)
     {
