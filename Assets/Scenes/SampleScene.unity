@@ -1308,6 +1308,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1735489919404968490, guid: ad64be46eb135b14583a49c34d1dbf43, type: 3}
+      propertyPath: isHQ
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735489919404968490, guid: ad64be46eb135b14583a49c34d1dbf43, type: 3}
       propertyPath: faction
       value: 
       objectReference: {fileID: 1089704739}
@@ -1315,6 +1319,14 @@ PrefabInstance:
       propertyPath: isFunctional
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1735489919404968490, guid: ad64be46eb135b14583a49c34d1dbf43, type: 3}
+      propertyPath: unitPrefabs.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735489919404968490, guid: ad64be46eb135b14583a49c34d1dbf43, type: 3}
+      propertyPath: unitPrefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 197842, guid: 886b9138bbf413148b7f289ddcca255f, type: 3}
     - target: {fileID: 2982598488160501263, guid: ad64be46eb135b14583a49c34d1dbf43, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.360335
@@ -5245,6 +5257,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74e871207e2e65b4499fab414b433a77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &1268761546 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6350351656089947368, guid: 0d7cad4bb0f279a4e85be50a1d03d313, type: 3}
+  m_PrefabInstance: {fileID: 7964612673612339356}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1312440047
 GameObject:
   m_ObjectHideFlags: 0
@@ -5864,14 +5881,24 @@ MonoBehaviour:
   maxHP: 100
   faction: {fileID: 1089704739}
   selectionVisual: {fileID: 439087689}
-  spawnPoint: {fileID: 0}
-  rallyPoint: {fileID: 0}
-  unitPrefabs: []
+  structureCost:
+    food: 0
+    wood: 0
+    gold: 0
+    stone: 0
+  spawnPoint: {fileID: 1268761546}
+  rallyPoint: {fileID: 2067930669}
+  unitPrefabs:
+  - {fileID: 186328, guid: b052fd46988038f4c8eaaf3aa854a007, type: 3}
+  - {fileID: 1249156991256630, guid: 150b98b359e6d0247b941594507833d6, type: 3}
+  - {fileID: 197842, guid: 886b9138bbf413148b7f289ddcca255f, type: 3}
   recruitList: []
   unitTimer: 0
   curUnitProgress: 0
   curUnitWaitTime: 0
   isFunctional: 0
+  isHQ: 0
+  intoTheGround: 5
 --- !u!1 &1425159810
 GameObject:
   m_ObjectHideFlags: 0
@@ -7121,7 +7148,17 @@ MonoBehaviour:
   - {fileID: 1658611916}
   - {fileID: 859034585}
   - {fileID: 1835773569}
-  buildingBtns: []
+  buildingBtns:
+  - {fileID: 1604441066}
+  - {fileID: 1979022949}
+  - {fileID: 1783692321}
+  - {fileID: 572500710}
+  - {fileID: 571543034}
+  - {fileID: 173194517}
+  - {fileID: 224964095}
+  - {fileID: 220308965}
+  - {fileID: 1828229741}
+  - {fileID: 1360712945}
 --- !u!114 &1650857626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8520,6 +8557,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2001931729}
   m_CullTransparentMesh: 1
+--- !u!4 &2067930669 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4604595648206344325, guid: 0d7cad4bb0f279a4e85be50a1d03d313, type: 3}
+  m_PrefabInstance: {fileID: 7964612673612339356}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2087815769
 GameObject:
   m_ObjectHideFlags: 0
@@ -8859,7 +8901,7 @@ PrefabInstance:
       addedObject: {fileID: 1557878862}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1499379859311301043, guid: 0d7cad4bb0f279a4e85be50a1d03d313, type: 3}
-      insertIndex: -1
+      insertIndex: 1
       addedObject: {fileID: 1421238729}
   m_SourcePrefab: {fileID: 100100000, guid: 0d7cad4bb0f279a4e85be50a1d03d313, type: 3}
 --- !u!1660057539 &9223372036854775807

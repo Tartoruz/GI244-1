@@ -51,7 +51,6 @@ public class UnitSelect : MonoBehaviour
         if (Input.GetMouseButtonUp(0))
         {
             TrySelect(Input.mousePosition);
-            Debug.Log("11");
         }
 
     }
@@ -108,6 +107,9 @@ public class UnitSelect : MonoBehaviour
     private void ShowUnit(Unit u)
     {
         InfoManager.instance.ShowAllInfo(u);
+        
+        if (u.IsBuilder)
+            ActionManager.instance.ShowBuilderMode(u);
     }
     private void ShowBuilding(Building b)
     {

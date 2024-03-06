@@ -79,6 +79,9 @@ public class Unit : MonoBehaviour
     void Awake()
     {
         navAgent = GetComponent<NavMeshAgent>();
+
+        if (isBuilder)
+            builder = GetComponent<Builder>();
     }
 
     void Start()

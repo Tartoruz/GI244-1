@@ -151,15 +151,24 @@ MonoBehaviour:
   maxHP: 100
   faction: {fileID: 0}
   selectionVisual: {fileID: 4678418479549053505}
+  structureCost:
+    food: 0
+    wood: 0
+    gold: 0
+    stone: 0
   spawnPoint: {fileID: 4500685070445139047}
   rallyPoint: {fileID: 6547827586591424801}
   unitPrefabs:
   - {fileID: 186328, guid: b052fd46988038f4c8eaaf3aa854a007, type: 3}
   - {fileID: 1249156991256630, guid: 150b98b359e6d0247b941594507833d6, type: 3}
+  - {fileID: 1249156991256630, guid: 150b98b359e6d0247b941594507833d6, type: 3}
   recruitList: []
   unitTimer: 0
   curUnitProgress: 0
   curUnitWaitTime: 0
+  isFunctional: 0
+  isHQ: 0
+  intoTheGround: 5
 --- !u!65 &7157869475434873466
 BoxCollider:
   m_ObjectHideFlags: 0
