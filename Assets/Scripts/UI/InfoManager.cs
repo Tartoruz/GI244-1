@@ -63,6 +63,9 @@ public class InfoManager : MonoBehaviour
         moveIcon.color = Color.clear;
         moveTxt.text = "";
 
+        rsrcIcon.color = Color.clear;
+        rsrcTxt.text = "";
+
         atkIcon.color = Color.clear;
         atkTxt.text = "";
 
