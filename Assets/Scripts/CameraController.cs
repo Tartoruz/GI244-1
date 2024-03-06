@@ -29,7 +29,7 @@ public class CameraController : MonoBehaviour
     [SerializeField] private float rotationAmount;
     [SerializeField] private Quaternion newRotation;
 
-    private static CameraController instance;
+    public static CameraController instance;
     Rigidbody rb;
     
     void Awake()
