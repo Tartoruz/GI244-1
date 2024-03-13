@@ -20,6 +20,7 @@ public class UnitsAnimation : MonoBehaviour
     }
     private void ChooseAnimation(Unit u)
     {
+
         anim.SetBool("IsIdle", false);
         anim.SetBool("IsMove", false);
         anim.SetBool("IsAttack", false);
