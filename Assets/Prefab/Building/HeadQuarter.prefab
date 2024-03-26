@@ -161,13 +161,13 @@ MonoBehaviour:
   unitPrefabs:
   - {fileID: 186328, guid: b052fd46988038f4c8eaaf3aa854a007, type: 3}
   - {fileID: 1249156991256630, guid: 150b98b359e6d0247b941594507833d6, type: 3}
-  - {fileID: 1249156991256630, guid: 150b98b359e6d0247b941594507833d6, type: 3}
+  - {fileID: 197842, guid: 886b9138bbf413148b7f289ddcca255f, type: 3}
   recruitList: []
   unitTimer: 0
   curUnitProgress: 0
   curUnitWaitTime: 0
-  isFunctional: 0
-  isHQ: 0
+  isFunctional: 1
+  isHQ: 1
   intoTheGround: 5
 --- !u!65 &7157869475434873466
 BoxCollider:
