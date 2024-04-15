@@ -45,7 +45,7 @@ public class Building : Structure
                 curUnitProgress++;
                 unitTimer = 0f;
 
-                if (curUnitProgress >= 100)
+                if (curUnitProgress >= 1)
                 {
                     curUnitProgress = 0;
                     curUnitWaitTime = 0f;
