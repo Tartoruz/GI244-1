@@ -1,5 +1,111 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1366446250959196718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6779385581305414747}
+  - component: {fileID: 6913191794861943229}
+  - component: {fileID: 4304482959925193922}
+  - component: {fileID: 8287059133799459452}
+  m_Layer: 2
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6779385581305414747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366446250959196718}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.1, z: 2.3}
+  m_LocalScale: {x: 1, y: 1, z: 3.7043786}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1499379859311660167}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6913191794861943229
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366446250959196718}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &4304482959925193922
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366446250959196718}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8287059133799459452
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366446250959196718}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1499379859311298111
 GameObject:
   m_ObjectHideFlags: 0
@@ -9,7 +115,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1499379859311580927}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Attachments
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81,7 +187,7 @@ GameObject:
   - component: {fileID: 1499379859311573875}
   - component: {fileID: 1499379859310354143}
   - component: {fileID: 1499379859309285029}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Prop_Cannon_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,7 +237,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -164,7 +270,7 @@ GameObject:
   - component: {fileID: 1499379859311581541}
   - component: {fileID: 1499379859310277553}
   - component: {fileID: 1499379859309310653}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Extra_Barrel_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -214,7 +320,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -248,11 +354,11 @@ GameObject:
   - component: {fileID: 1499379859310275075}
   - component: {fileID: 1499379859309275295}
   - component: {fileID: 1453105721307525391}
-  - component: {fileID: 5263074103324782452}
-  - component: {fileID: -84197307078134745}
-  m_Layer: 0
-  m_Name: House
-  m_TagString: Untagged
+  - component: {fileID: 807927072148286317}
+  - component: {fileID: 2653383645899000667}
+  m_Layer: 2
+  m_Name: Fr_House_Ghost
+  m_TagString: GhostBuilding
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -265,12 +371,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1499379859311301043}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.7100163, z: -0, w: 0.7041853}
-  m_LocalPosition: {x: -0.3082583, y: 0.19999981, z: -1.3648319}
+  m_LocalRotation: {x: -0, y: 0.84384024, z: -0, w: 0.53659457}
+  m_LocalPosition: {x: -25.1, y: 0.2, z: -22.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7659776483057524190}
   - {fileID: 1499379859311629725}
   - {fileID: 1499379859311560883}
   - {fileID: 1499379859311658653}
@@ -282,10 +387,9 @@ Transform:
   - {fileID: 1499379859311583621}
   - {fileID: 1499379859311661181}
   - {fileID: 1499379859311580927}
-  - {fileID: 6350351656089947368}
-  - {fileID: 4604595648206344325}
+  - {fileID: 6779385581305414747}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 90.472, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1499379859310275075
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -314,7 +418,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -358,7 +462,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: ef45dc6b72355bc419c08a51f4a63a5c, type: 3}
---- !u!114 &5263074103324782452
+--- !u!65 &807927072148286317
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499379859311301043}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.324001, y: 17.153236, z: 39.74894}
+  m_Center: {x: -0.0000004768373, y: 8.565777, z: 3.280854}
+--- !u!114 &2653383645899000667
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -367,49 +492,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1499379859311301043}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74e871207e2e65b4499fab414b433a77, type: 3}
+  m_Script: {fileID: 11500000, guid: e059839d236d8da4280e4965871c3383, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  structureName: House
-  structurePic: {fileID: 21300000, guid: 12d130cbe30ef0b46a63e8c4dd8441ac, type: 3}
-  curHP: 100
-  maxHP: 100
-  faction: {fileID: 0}
-  selectionVisual: {fileID: 7636593088093729944}
-  structureCost:
-    food: 50
-    wood: 50
-    gold: 50
-    stone: 50
-  spawnPoint: {fileID: 6350351656089947368}
-  rallyPoint: {fileID: 4604595648206344325}
-  unitPrefabs:
-  - {fileID: 186328, guid: b052fd46988038f4c8eaaf3aa854a007, type: 3}
-  - {fileID: 1249156991256630, guid: 150b98b359e6d0247b941594507833d6, type: 3}
-  - {fileID: 197842, guid: 886b9138bbf413148b7f289ddcca255f, type: 3}
-  recruitList: []
-  unitTimer: 0
-  curUnitProgress: 0
-  curUnitWaitTime: 0
-  isFunctional: 1
-  isHQ: 0
-  intoTheGround: 5
---- !u!208 &-84197307078134745
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1499379859311301043}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 5.162, y: 8.577001, z: 19.874}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 8.566, z: 3.2810001}
-  m_TimeToStationary: 0.5
+  canBuild: 0
+  modelRdr:
+  - {fileID: 1499379859309290971}
+  - {fileID: 1499379859309281517}
+  - {fileID: 1499379859309294741}
+  - {fileID: 1499379859309310265}
+  - {fileID: 1499379859309325643}
+  - {fileID: 1499379859309330291}
+  - {fileID: 1499379859309593339}
+  - {fileID: 1499379859309644763}
+  - {fileID: 1499379859309293745}
+  - {fileID: 1499379859309633427}
+  planeRdr: {fileID: 4304482959925193922}
 --- !u!1 &1499379859311301405
 GameObject:
   m_ObjectHideFlags: 0
@@ -421,7 +519,7 @@ GameObject:
   - component: {fileID: 1499379859311674313}
   - component: {fileID: 1499379859310318613}
   - component: {fileID: 1499379859309330291}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Boat_Warship_01_Mast_SailUp_03_Pirate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -471,7 +569,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -504,7 +602,7 @@ GameObject:
   - component: {fileID: 1499379859311618681}
   - component: {fileID: 1499379859310335433}
   - component: {fileID: 1499379859309278147}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Prop_Cannon_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -554,7 +652,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -587,7 +685,7 @@ GameObject:
   - component: {fileID: 1499379859311590549}
   - component: {fileID: 1499379859310352277}
   - component: {fileID: 1499379859309657887}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Prop_Crate_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -637,7 +735,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -675,7 +773,7 @@ GameObject:
   - component: {fileID: 1452480671000744941}
   - component: {fileID: 1453867080796563667}
   - component: {fileID: 1453928171877127155}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Boat_Warship_01_Mast_01_Pirate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -726,7 +824,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -869,7 +967,7 @@ GameObject:
   - component: {fileID: 1499379859311683209}
   - component: {fileID: 1499379859310325755}
   - component: {fileID: 1499379859309626231}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Prop_Crate_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -919,7 +1017,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -952,7 +1050,7 @@ GameObject:
   - component: {fileID: 1499379859311569529}
   - component: {fileID: 1499379859310257029}
   - component: {fileID: 1499379859309631447}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Extra_Barrel_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1002,7 +1100,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1035,7 +1133,7 @@ GameObject:
   - component: {fileID: 1499379859311567863}
   - component: {fileID: 1499379859310279075}
   - component: {fileID: 1499379859309301271}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Extra_Barrels_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1085,7 +1183,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1118,7 +1216,7 @@ GameObject:
   - component: {fileID: 1499379859311684837}
   - component: {fileID: 1499379859310359603}
   - component: {fileID: 1499379859309641781}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Extra_Cargo_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1168,7 +1266,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1201,7 +1299,7 @@ GameObject:
   - component: {fileID: 1499379859311565239}
   - component: {fileID: 1499379859310309201}
   - component: {fileID: 1499379859309329397}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Prop_CannonBalls_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1251,7 +1349,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1284,7 +1382,7 @@ GameObject:
   - component: {fileID: 1499379859311564897}
   - component: {fileID: 1499379859310258913}
   - component: {fileID: 1499379859309655493}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Extra_Barrel_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1334,7 +1432,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1367,7 +1465,7 @@ GameObject:
   - component: {fileID: 1499379859311663929}
   - component: {fileID: 1499379859310300349}
   - component: {fileID: 1499379859309293519}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Extra_Cargo_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1417,7 +1515,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1450,7 +1548,7 @@ GameObject:
   - component: {fileID: 1499379859311664797}
   - component: {fileID: 1499379859310317971}
   - component: {fileID: 1499379859309656423}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Prop_Cannon_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1500,7 +1598,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1533,7 +1631,7 @@ GameObject:
   - component: {fileID: 1499379859311560857}
   - component: {fileID: 1499379859310348717}
   - component: {fileID: 1499379859309319697}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Extra_Barrels_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1583,7 +1681,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1616,7 +1714,7 @@ GameObject:
   - component: {fileID: 1499379859311625879}
   - component: {fileID: 1499379859310263187}
   - component: {fileID: 1499379859309651503}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Extra_Barrel_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1666,7 +1764,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1699,7 +1797,7 @@ GameObject:
   - component: {fileID: 1499379859311561757}
   - component: {fileID: 1499379859310348261}
   - component: {fileID: 1499379859309650035}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Prop_ShipWheel_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1749,7 +1847,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1782,7 +1880,7 @@ GameObject:
   - component: {fileID: 1499379859311564627}
   - component: {fileID: 1499379859310255241}
   - component: {fileID: 1499379859309640075}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Extra_Barrel_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1832,7 +1930,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1865,7 +1963,7 @@ GameObject:
   - component: {fileID: 1499379859311574147}
   - component: {fileID: 1499379859310262927}
   - component: {fileID: 1499379859309324673}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Extra_Cargo_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1915,7 +2013,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1948,7 +2046,7 @@ GameObject:
   - component: {fileID: 1499379859311588769}
   - component: {fileID: 1499379859310354537}
   - component: {fileID: 1499379859309274367}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Prop_Crate_Cannonballs_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1998,7 +2096,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2031,7 +2129,7 @@ GameObject:
   - component: {fileID: 1499379859311571999}
   - component: {fileID: 1499379859310376383}
   - component: {fileID: 1499379859309645191}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Prop_Cannon_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2081,7 +2179,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2114,7 +2212,7 @@ GameObject:
   - component: {fileID: 1499379859311587227}
   - component: {fileID: 1499379859310361565}
   - component: {fileID: 1499379859309649207}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Prop_Cannon_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2164,7 +2262,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2197,7 +2295,7 @@ GameObject:
   - component: {fileID: 1499379859311583621}
   - component: {fileID: 1499379859310259085}
   - component: {fileID: 1499379859309293745}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Boat_Warship_01_Sails_04_Pirate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2247,7 +2345,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2280,7 +2378,7 @@ GameObject:
   - component: {fileID: 1499379859311626305}
   - component: {fileID: 1499379859310353057}
   - component: {fileID: 1499379859309310265}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Boat_Warship_01_Mast_SailUp_01_Pirate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2330,7 +2428,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2363,7 +2461,7 @@ GameObject:
   - component: {fileID: 1499379859311571021}
   - component: {fileID: 1499379859310363687}
   - component: {fileID: 1499379859309638115}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Extra_Barrel_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2413,7 +2511,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2446,7 +2544,7 @@ GameObject:
   - component: {fileID: 1499379859311624229}
   - component: {fileID: 1499379859310318593}
   - component: {fileID: 1499379859309316251}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Boat_Warship_01_Sails_01_Pirate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2496,7 +2594,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2529,7 +2627,7 @@ GameObject:
   - component: {fileID: 1499379859311673497}
   - component: {fileID: 1499379859310269405}
   - component: {fileID: 1499379859309319853}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Prop_CannonBalls_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2579,7 +2677,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2612,7 +2710,7 @@ GameObject:
   - component: {fileID: 1499379859311586217}
   - component: {fileID: 1499379859310351823}
   - component: {fileID: 1499379859309651657}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Prop_Crate_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2662,7 +2760,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2695,7 +2793,7 @@ GameObject:
   - component: {fileID: 1499379859311584153}
   - component: {fileID: 1499379859310252689}
   - component: {fileID: 1499379859309311339}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Boat_Warship_01_Sails_02_Pirate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2745,7 +2843,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2778,7 +2876,7 @@ GameObject:
   - component: {fileID: 1499379859311568827}
   - component: {fileID: 1499379859310329469}
   - component: {fileID: 1499379859309299765}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Prop_Crate_Cannonballs_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2828,7 +2926,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2861,7 +2959,7 @@ GameObject:
   - component: {fileID: 1499379859311604499}
   - component: {fileID: 1499379859310306743}
   - component: {fileID: 1499379859309656527}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Prop_Crate_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2911,7 +3009,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2944,7 +3042,7 @@ GameObject:
   - component: {fileID: 1499379859311663601}
   - component: {fileID: 1499379859310280579}
   - component: {fileID: 1499379859309297547}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Boat_Warship_01_Sails_03_Pirate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2994,7 +3092,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3027,7 +3125,7 @@ GameObject:
   - component: {fileID: 1499379859311661181}
   - component: {fileID: 1499379859310365739}
   - component: {fileID: 1499379859309633427}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Boat_Warship_01_Sails_05_Pirate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3077,7 +3175,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3110,7 +3208,7 @@ GameObject:
   - component: {fileID: 1499379859311613599}
   - component: {fileID: 1499379859310251205}
   - component: {fileID: 1499379859309597459}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Prop_Crate_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3160,7 +3258,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3193,7 +3291,7 @@ GameObject:
   - component: {fileID: 1499379859311678665}
   - component: {fileID: 1499379859310337713}
   - component: {fileID: 1499379859309593339}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Boat_Warship_01_Mast_SailUp_04_Pirate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3243,7 +3341,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3276,7 +3374,7 @@ GameObject:
   - component: {fileID: 1499379859311589359}
   - component: {fileID: 1499379859310322739}
   - component: {fileID: 1499379859309595423}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Prop_Cannon_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3326,7 +3424,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3359,7 +3457,7 @@ GameObject:
   - component: {fileID: 1499379859311666741}
   - component: {fileID: 1499379859310325349}
   - component: {fileID: 1499379859309281435}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Prop_Crate_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3409,7 +3507,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3442,7 +3540,7 @@ GameObject:
   - component: {fileID: 1499379859311666475}
   - component: {fileID: 1499379859310276017}
   - component: {fileID: 1499379859309653981}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Extra_Barrel_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3492,7 +3590,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3530,7 +3628,7 @@ GameObject:
   - component: {fileID: 1453202212088727513}
   - component: {fileID: 1453929025179495189}
   - component: {fileID: 1453383153374414023}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Boat_Warship_01_Mast_03_Pirate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3581,7 +3679,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3724,7 +3822,7 @@ GameObject:
   - component: {fileID: 1499379859311614609}
   - component: {fileID: 1499379859310275251}
   - component: {fileID: 1499379859309280349}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Extra_Barrel_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3774,7 +3872,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3807,7 +3905,7 @@ GameObject:
   - component: {fileID: 1499379859311677957}
   - component: {fileID: 1499379859310278161}
   - component: {fileID: 1499379859309315809}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Prop_Crate_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3857,7 +3955,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3895,7 +3993,7 @@ GameObject:
   - component: {fileID: 1453320834203042483}
   - component: {fileID: 1452611109265465999}
   - component: {fileID: 1452981257306833881}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Boat_Warship_01_Mast_02_Pirate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3946,7 +4044,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4089,7 +4187,7 @@ GameObject:
   - component: {fileID: 1499379859311660699}
   - component: {fileID: 1499379859310366195}
   - component: {fileID: 1499379859309287993}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Prop_Crate_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4139,7 +4237,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4172,7 +4270,7 @@ GameObject:
   - component: {fileID: 1499379859311566815}
   - component: {fileID: 1499379859310261879}
   - component: {fileID: 1499379859309314687}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Prop_Crate_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4222,7 +4320,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4255,7 +4353,7 @@ GameObject:
   - component: {fileID: 1499379859311630499}
   - component: {fileID: 1499379859310321751}
   - component: {fileID: 1499379859309644763}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Boat_Warship_01_Rigging_Pirate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4305,7 +4403,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4338,7 +4436,7 @@ GameObject:
   - component: {fileID: 1499379859311626947}
   - component: {fileID: 1499379859310262913}
   - component: {fileID: 1499379859309325643}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Boat_Warship_01_Mast_SailUp_02_Pirate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4388,7 +4486,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4421,7 +4519,7 @@ GameObject:
   - component: {fileID: 1499379859311676613}
   - component: {fileID: 1499379859310262893}
   - component: {fileID: 1499379859309595005}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Prop_Crate_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4471,7 +4569,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4504,7 +4602,7 @@ GameObject:
   - component: {fileID: 1499379859311604093}
   - component: {fileID: 1499379859310327929}
   - component: {fileID: 1499379859309296851}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Prop_Crate_Cannonballs_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4554,7 +4652,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4587,7 +4685,7 @@ GameObject:
   - component: {fileID: 1499379859311608987}
   - component: {fileID: 1499379859310307455}
   - component: {fileID: 1499379859309651183}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Extra_Barrel_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4637,7 +4735,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4670,7 +4768,7 @@ GameObject:
   - component: {fileID: 1499379859311601127}
   - component: {fileID: 1499379859310327409}
   - component: {fileID: 1499379859309287451}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Prop_Crate_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4720,7 +4818,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4753,7 +4851,7 @@ GameObject:
   - component: {fileID: 1499379859311621805}
   - component: {fileID: 1499379859310350343}
   - component: {fileID: 1499379859309629453}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Prop_Crate_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4803,7 +4901,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4836,7 +4934,7 @@ GameObject:
   - component: {fileID: 1499379859311610647}
   - component: {fileID: 1499379859310307759}
   - component: {fileID: 1499379859309323523}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Veh_Extra_Barrel_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4886,7 +4984,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e1235b2e417983469723d36f05de88d, type: 2}
+  - {fileID: 2100000, guid: bdab035b5fbb37c44888e1d1e770427c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4908,132 +5006,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3336474198159037942
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6350351656089947368}
-  m_Layer: 0
-  m_Name: SpawnPoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6350351656089947368
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3336474198159037942}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.7100163, z: 0, w: 0.7041853}
-  m_LocalPosition: {x: -5.65, y: 0.1, z: -0.05}
-  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1499379859311660167}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7634122343467046010
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4604595648206344325}
-  m_Layer: 0
-  m_Name: RallyPoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4604595648206344325
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7634122343467046010}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.7100163, z: 0, w: 0.7041853}
-  m_LocalPosition: {x: -13.69, y: 0.1, z: -0.11}
-  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1499379859311660167}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &6387814348323131504
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1499379859311660167}
-    m_Modifications:
-    - target: {fileID: 3556915418318120168, guid: 033613ff67829a64a9f72807b79cec84, type: 3}
-      propertyPath: m_Name
-      value: BuildingSelection
-      objectReference: {fileID: 0}
-    - target: {fileID: 3669005905455304110, guid: 033613ff67829a64a9f72807b79cec84, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3669005905455304110, guid: 033613ff67829a64a9f72807b79cec84, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3669005905455304110, guid: 033613ff67829a64a9f72807b79cec84, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 3.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3669005905455304110, guid: 033613ff67829a64a9f72807b79cec84, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3669005905455304110, guid: 033613ff67829a64a9f72807b79cec84, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3669005905455304110, guid: 033613ff67829a64a9f72807b79cec84, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3669005905455304110, guid: 033613ff67829a64a9f72807b79cec84, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3669005905455304110, guid: 033613ff67829a64a9f72807b79cec84, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3669005905455304110, guid: 033613ff67829a64a9f72807b79cec84, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3669005905455304110, guid: 033613ff67829a64a9f72807b79cec84, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 033613ff67829a64a9f72807b79cec84, type: 3}
---- !u!1 &7636593088093729944 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3556915418318120168, guid: 033613ff67829a64a9f72807b79cec84, type: 3}
-  m_PrefabInstance: {fileID: 6387814348323131504}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &7659776483057524190 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3669005905455304110, guid: 033613ff67829a64a9f72807b79cec84, type: 3}
-  m_PrefabInstance: {fileID: 6387814348323131504}
-  m_PrefabAsset: {fileID: 0}

@@ -133,6 +133,15 @@ MonoBehaviour:
   buildingsParent: {fileID: 439886112454122311}
   ghostBuildingParent: {fileID: 1097244917038766778}
   startPosition: {fileID: 8008748386739781893}
+  newResourceRange: 50
+  buildingPrefabs:
+  - {fileID: 6389377576231720117, guid: ad64be46eb135b14583a49c34d1dbf43, type: 3}
+  - {fileID: 1499379859311301043, guid: 0d7cad4bb0f279a4e85be50a1d03d313, type: 3}
+  - {fileID: 2899938026300603983, guid: 85b7e470ea3e4af43933b41655bd27e1, type: 3}
+  - {fileID: 8912711189120996110, guid: 761cfb1aff0903c40970db920828d81b, type: 3}
+  unitPrefabs:
+  - {fileID: 197842, guid: 886b9138bbf413148b7f289ddcca255f, type: 3}
+  - {fileID: 186328, guid: b052fd46988038f4c8eaaf3aa854a007, type: 3}
 --- !u!1 &2528101379110767480
 GameObject:
   m_ObjectHideFlags: 0

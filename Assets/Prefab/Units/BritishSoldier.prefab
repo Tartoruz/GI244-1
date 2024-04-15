@@ -5259,7 +5259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d02d2af6e66d0c488a92d001abee7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 0
+  id: 1
   unitName: Brit. Regular
   unitPic: {fileID: 21300000, guid: ec7cbc55911e1bb45826ff53f7659ba1, type: 3}
   curHP: 100
