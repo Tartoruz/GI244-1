@@ -29,6 +29,7 @@ public class ActionManager : MonoBehaviour
     {
         HideCreateUnitButtons();
         HideCreateBuildingButtons();
+        Debug.Log("555464");
     }
     private void ShowCreateUnitButtons(Building b)
     {
@@ -69,6 +70,7 @@ public class ActionManager : MonoBehaviour
     {
         ClearAllInfo();
         ShowCreateUnitButtons(b);
+        Debug.Log("555555");
     }
 
     public void ShowBuilderMode(Unit unit)
@@ -78,7 +80,7 @@ public class ActionManager : MonoBehaviour
     }
     public void CreateUnitButton(int n)//Map with Create Unit Btns
     {
-        //Debug.Log("Create " + n);
+        Debug.Log("Create " + n);
         UnitSelect.instance.CurBuilding.ToCreateUnit(n);
     }
 
