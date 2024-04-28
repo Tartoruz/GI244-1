@@ -56,7 +56,7 @@ public class Building : Structure
                 curUnitProgress++;
                 unitTimer = 0f;
 
-                if (curUnitProgress >= 1)
+                if (curUnitProgress >= 100 && (faction.AliveUnits.Count < faction.UnitLimit))
                 {
                     curUnitProgress = 0;
                     curUnitWaitTime = 0f;
@@ -123,6 +123,17 @@ public class Building : Structure
     {
         if (SelectionVisual != null)
             SelectionVisual.SetActive(flag);
+    }
+    public int CheckNumInRecruitList(int id)
+    {
+        int num = 0;
+
+        foreach (Unit u in recruitList)
+        {
+            if (id == u.ID)
+                num++;
+        }
+        return num;
     }
 
 }
