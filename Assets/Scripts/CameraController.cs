@@ -113,4 +113,8 @@ public class CameraController : MonoBehaviour
         if (Input.GetKey(KeyCode.Space))
             rb.AddForce(Vector3.up * jumpHeight);
     }
+    public void FocusOnPosition(Vector3 pos)
+    {
+        transform.position = pos;
+    }
 }

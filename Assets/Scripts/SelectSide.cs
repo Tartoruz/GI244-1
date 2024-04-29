@@ -1,0 +1,25 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class SelectSide : MonoBehaviour
+{
+    [SerializeField] private string mainMenuScene;
+    [SerializeField] private string chooseMenuScene;
+
+    public void BackToMainMenu()
+    {
+        SceneManager.LoadScene(mainMenuScene);
+    }
+    public void GoToChooseMap()
+    {
+        SceneManager.LoadScene(chooseMenuScene);
+    }
+
+    public void ChooseSide(int i)
+    {
+        Settings.SelectSide(i);
+        GoToChooseMap();
+    }
+}
