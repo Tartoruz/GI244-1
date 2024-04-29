@@ -4766,6 +4766,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6801584444417513907, guid: db1c794a3521eb84385c6c3e80ae2844, type: 3}
+      propertyPath: buildingPrefabs.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801584444417513907, guid: db1c794a3521eb84385c6c3e80ae2844, type: 3}
+      propertyPath: buildingPrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 8209271331956289247, guid: 6db5c3ec101e1f84aa15011046f97dd3, type: 3}
+    - target: {fileID: 6801584444417513907, guid: db1c794a3521eb84385c6c3e80ae2844, type: 3}
+      propertyPath: buildingPrefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 2899938026300603983, guid: 85b7e470ea3e4af43933b41655bd27e1, type: 3}
+    - target: {fileID: 6801584444417513907, guid: db1c794a3521eb84385c6c3e80ae2844, type: 3}
+      propertyPath: buildingPrefabs.Array.data[4]
+      value: 
+      objectReference: {fileID: 8912711189120996110, guid: 761cfb1aff0903c40970db920828d81b, type: 3}
+    - target: {fileID: 6801584444417513907, guid: db1c794a3521eb84385c6c3e80ae2844, type: 3}
+      propertyPath: ghostBuildingPrefabs.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801584444417513907, guid: db1c794a3521eb84385c6c3e80ae2844, type: 3}
+      propertyPath: ghostBuildingPrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 8209271331956289247, guid: f16e71eb51bb1ee41aa12f60415930f6, type: 3}
+    - target: {fileID: 6801584444417513907, guid: db1c794a3521eb84385c6c3e80ae2844, type: 3}
+      propertyPath: ghostBuildingPrefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 2899938026300603983, guid: 2aac5cf8840a96e479adadd70f0ff615, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

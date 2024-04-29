@@ -201,7 +201,10 @@ MonoBehaviour:
     stone: 50
   spawnPoint: {fileID: 4010659691696581430}
   rallyPoint: {fileID: 8606834053014920443}
-  unitPrefabs: []
+  unitPrefabs:
+  - {fileID: 197842, guid: 886b9138bbf413148b7f289ddcca255f, type: 3}
+  - {fileID: 197842, guid: 886b9138bbf413148b7f289ddcca255f, type: 3}
+  - {fileID: 197842, guid: 886b9138bbf413148b7f289ddcca255f, type: 3}
   recruitList: []
   unitTimer: 0
   curUnitProgress: 0
@@ -246,8 +249,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 9.85, y: 5, z: 7.53}
+  m_Center: {x: 0, y: 2.5, z: 0}
 --- !u!54 &3639069200263751919
 Rigidbody:
   m_ObjectHideFlags: 0
