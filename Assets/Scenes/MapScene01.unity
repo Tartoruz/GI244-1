@@ -1551,17 +1551,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5002155619551508003, guid: caaeb3c722a37fa41aa172644887e07a, type: 3}
   m_PrefabInstance: {fileID: 355652481}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &355652483 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6801584444417513907, guid: caaeb3c722a37fa41aa172644887e07a, type: 3}
-  m_PrefabInstance: {fileID: 355652481}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 189e818973cdb33448cc6c8cc26e90b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &388701837
 GameObject:
   m_ObjectHideFlags: 0
@@ -8946,13 +8935,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1747284165}
     - target: {fileID: 3027813721343914128, guid: 2eb55efdd31773a4dbfc5dd1703e5802, type: 3}
+      propertyPath: factions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3027813721343914128, guid: 2eb55efdd31773a4dbfc5dd1703e5802, type: 3}
       propertyPath: factions.Array.data[0]
       value: 
       objectReference: {fileID: 1089704739}
     - target: {fileID: 3027813721343914128, guid: 2eb55efdd31773a4dbfc5dd1703e5802, type: 3}
       propertyPath: factions.Array.data[1]
       value: 
-      objectReference: {fileID: 355652483}
+      objectReference: {fileID: 1747284165}
     - target: {fileID: 6780055356615691453, guid: 2eb55efdd31773a4dbfc5dd1703e5802, type: 3}
       propertyPath: m_Name
       value: GameManager
