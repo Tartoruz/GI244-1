@@ -5,14 +5,17 @@ using static ResourceSource;
 
 public enum Nation
 {
-    Neutal = 0,
+    Neutral = 0,
     Britain,
     Pirates,
     France,
     Spain,
     Portuguese,
     Dutch
+    
 }
+
+
 public class Faction : MonoBehaviour
 {
 
@@ -230,5 +233,38 @@ public class Faction : MonoBehaviour
             return false;
 
         return true;
+    }
+    public Color GetNationColor()
+    {
+        Color col;
+
+        switch(nation)
+        {
+            case Nation.Neutral:
+                col = Color.white;
+                break;
+            case Nation.Britain:
+                col = Color.red;
+                break;
+            case Nation.Pirates:
+                col = Color.black;
+                break;
+            case Nation.France:
+                col = Color.blue;
+                break;
+            case Nation.Spain:
+                col = Color.yellow;
+                break;
+            case Nation.Portuguese:
+                col = Color.green;
+                break;
+            case Nation.Dutch:
+                col = new Color32 (255, 157, 0, 255);
+                break;
+            default:
+                col = Color.white;
+                break;
+        }
+        return col;
     }
 }

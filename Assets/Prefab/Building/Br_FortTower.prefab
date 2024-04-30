@@ -50,6 +50,7 @@ GameObject:
   - component: {fileID: 8426486123353244126}
   - component: {fileID: 8607342398850277055}
   - component: {fileID: 8077512967378985488}
+  - component: {fileID: 6236279316496838863}
   m_Layer: 0
   m_Name: Br_FortTower
   m_TagString: Untagged
@@ -106,6 +107,8 @@ MonoBehaviour:
   curUnitWaitTime: 0
   isFunctional: 1
   isHQ: 0
+  isHousing: 0
+  isBarrack: 0
   intoTheGround: 5
   unitLayerMask:
     serializedVersion: 2
@@ -179,6 +182,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6236279316496838863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2899938026300603983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 231c31e16bacd5a41aff511ed9beafe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1298418015743389105
 PrefabInstance:
   m_ObjectHideFlags: 0
