@@ -274,12 +274,12 @@ MonoBehaviour:
   newResourceRange: 50
   buildingPrefabs:
   - {fileID: 6389377576231720117, guid: 572eacac1308e8a44aeeabecac3681d7, type: 3}
-  - {fileID: 8209271331956289247, guid: 07c8424ab91e52c4188a1c00af4b5705, type: 3}
+  - {fileID: 8209271331956289247, guid: 1b647b85d9e65d744b71518545f6dad6, type: 3}
   - {fileID: 2899938026300603983, guid: d405898b28dea1f4ba5e920449a6f489, type: 3}
   - {fileID: 8912711189120996110, guid: b87cb808d4ecc2b47aa6a98a273ed718, type: 3}
   ghostBuildingPrefabs:
   - {fileID: 6389377576231720117, guid: 863277890a7ef9146a69491c71b25308, type: 3}
-  - {fileID: 8209271331956289247, guid: f47bcdcb49552ea43b9144ce6e4ae856, type: 3}
+  - {fileID: 8209271331956289247, guid: 58884b84f47d9304bb9035022c20ca00, type: 3}
   - {fileID: 2899938026300603983, guid: c5691d52631ef66429f3ec66497c7652, type: 3}
   - {fileID: 8912711189120996110, guid: ab2c0d69648ddf541b2e389461510af2, type: 3}
   unitPrefabs:
